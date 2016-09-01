@@ -9,6 +9,7 @@
   "author": "Alexandre Thomaz",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "guid": "0.0.12"
   }
 }

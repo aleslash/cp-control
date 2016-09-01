@@ -4,7 +4,7 @@ module.exports = function (app){
         res.send(
             [
                 {
-                    peludo:'Alexandre',
+                    nome:'Alexandre',
                     funcional:'001234567',
                     racf:'aaaaaaa'
                 }
@@ -15,7 +15,7 @@ module.exports = function (app){
         var funcional = req.params.funcional
         console.log('funcional:' + funcional);
         res.send({
-                    peludo:'Alexandre',
+                    nome:'Alexandre',
                     funcional:'001234567',
                     racf:'aaaaaaa'
                 });

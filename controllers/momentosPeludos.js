@@ -11,7 +11,7 @@ module.exports = function (app){
                         racf:'aaaaaaa'
                     },
                     data_e_hora: (new Date).toJSON(),
-                    relator:{
+                    delator:{
                         nome:'Alexandre',
                         funcional:'001234567',
                         racf:'aaaaaaa'
@@ -31,13 +31,17 @@ module.exports = function (app){
                         racf:'aaaaaaa'
                     },
                     data_e_hora: (new Date).toJSON(),
-                    relator:{
+                    delator:{
                         nome:'Alexandre',
                         funcional:'001234567',
                         racf:'aaaaaaa'
                     },
                     idMomento: guid.raw()
                 });
+    });
+
+    app.post('/momentos_peludos', function(req, res) {
+        
     });
     return app;
 }

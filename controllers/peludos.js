@@ -20,5 +20,10 @@ module.exports = function (app){
                     racf:'aaaaaaa'
                 });
     });
+
+    app.post('/peludos', function(req, res) {
+        
+    });
+
     return app;
 }
